@@ -1,0 +1,22 @@
+{
+  "name": "aztsatm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.12",
+    "inquirer": "^9.1.4"
+  },
+  "bin":
+  {
+    "aztsatm": "dist/index.js"
+  }
+}
